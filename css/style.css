@@ -235,20 +235,27 @@ p {
 /* About Info */
 #about-info {
     /* Add some padding so its not compressed */
+	padding: 30px 30px 30px 30px;
 }
 
 #about-info .info-left {
     /* How do we arrainge two divs side-by-side again? */
+	float: left;
+	width: 500px;
 }
 
 #about-info .info-right {
     /* How do we arrainge two divs side-by-side again? */
+	float: right;
+	width: 350px;
 }
 
 #about-info .info-right img {
     /* Perhaps a border radius is needed */
     /* Add some width too */
     /* To center the image, we make use of what css command? */
+	width: 350px;
+	border-radius: 50%;
 }
 
 
@@ -258,10 +265,18 @@ p {
 #testimonials {
     /* Add background image here - test-bg.jpg */
     /* Add some padding or height too */    
+	background: url(/hotel/img/test-bg.jpg);
+	padding: 30px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;  
 }
 
 #testimonials .testimonal {    
-    /* Add some padding and marging here */    
+    /* Add some padding and marging here */   
+	padding: 10px 10px 10px 10px;
+	margin-top: 10px;
+	margin-bottom: 10px; 
 }
 
 #testimonials .testimonal img {
@@ -270,8 +285,14 @@ p {
        2. Add a width to make it smaller
        3. How do you float the image to the left of the text? *hint*
     */
+	padding: 10px;
+	float: left;
+ 	width: 100px;
+	border-radius: 50%;
 }
 
 #testimonials h2 {    
     /* Maybe align the text and add some padding or margin */
+	text-align: center;
+	margin-top: 10px;
 }
